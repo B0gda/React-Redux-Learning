@@ -26,3 +26,32 @@
  
 Содержание при загрузке файлов:
 Папка `src` - `.css` и `.js` файлы для начала. В `index.js` все собирается (компонент, который и является нашим приложением).
+
+```
+"scripts": {
+"start": "react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test",
+"eject": "react-scripts eject"
+}
+```
+здесь уже есть встроенные скрипты в `package.json`.
+`ESLint` встроен. `JSHint` лучше отключить.
+
+```
+"browserslist": {
+	"production": [
+		">0.2%",
+		"not dead",
+		"not op_mini all"
+	],
+	"development":
+		"last 1 chrome version",
+		"last 1 firefox version",
+		"last 1 safari version"
+	]
+}
+```
+здесь идет оптимизация под последнии версии браузеров а продакшн под многие версии.
+`Babel` - выступает в роли компилятора также.(`JSX` => `JS`)
+
