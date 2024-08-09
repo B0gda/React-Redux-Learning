@@ -5,10 +5,10 @@
 
 ##  Содержание
 ### Модуль React
-1) [Введение, создание проекта с Create React App](React/1_1_ВведениеCreateReactApp)
+1) [Введение, создание проекта с Create React App](React/1_1_ВведениеCreateReactApp.md)
 
-2) [Работа с JSX, Strict mode](React/1_2_JSX,StrictMode)
+2) [Работа с JSX, Strict mode](React/1_2_JSX,StrictMode.md)
 
-3) [Props](React/1_3_Props)
+3) [Props](React/1_3_Props.md)
 
-4) [Алгоритм согласования свойства компонентов](React/1_4_АлгоритмСогласованияСвойстваКомпонентов)
+4) [Алгоритм согласования свойства компонентов](React/1_4_АлгоритмСогласованияСвойстваКомпонентов.md)
